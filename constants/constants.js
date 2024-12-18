@@ -1,11 +1,11 @@
-export const NAME = 'Muhammad Osama Javaid';
+export const NAME = 'Labib Hasan';
 
 export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
 
 export const DETAILS = {
-  Residence: 'Pakistan',
-  City: 'Peshawar',
-  Age: '23',
+  Residence: 'Bangladesh',
+  City: 'Rangpur',
+  Age: '24',
 };
 
 export const SKILLS = [
@@ -56,12 +56,12 @@ export const TECH_STACK = [
 ];
 
 export const CONTACTS = {
-  EMAIL: 'iosamajavaid@gmail.com',
-  PHONE: '+923159591822',
+  EMAIL: 'labibhasan819@gmail.com',
+  PHONE: '+60142202443',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/osamajavaid',
-  LINKEDIN: 'https://www.linkedin.com/in/iosamajavaid/',
+  GITHUB: 'https://github.com/Labo95',
+  LINKEDIN: 'https://www.linkedin.com/in/labib-hasan/',
   TWITTER: 'https://twitter.com/iosamajavaid',
   FACEBOOK: 'https://www.facebook.com/iosamajavaid',
 };
