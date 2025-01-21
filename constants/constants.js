@@ -1,17 +1,17 @@
-export const NAME = 'Muhammad Osama Javaid';
+export const NAME = 'Rohan Rizqon Wijaya';
 
-export const DESIGNATION = `MERN Stack Developer | Open Source Contributor | Tech Blogger`;
+export const DESIGNATION = `FULL STACK DEVELOPER 2025 || ©RIMURU INTERACTIVE`;
 
 export const DETAILS = {
-  Residence: 'Pakistan',
-  City: 'Peshawar',
-  Age: '23',
+  Residence: 'Indonesia, Japan',
+  City: 'Lampung, Tokyo',
+  Age: '16',
 };
 
 export const SKILLS = [
   {
-    title: 'MERN Stack Developer',
-    level: '75%',
+    title: 'My Stack Developer',
+    level: '65%',
   },
   {
     title: 'React Developer',
@@ -23,11 +23,11 @@ export const SKILLS = [
   // },
   {
     title: 'Backend Developer',
-    level: '54%',
+    level: '33%',
   },
   {
     title: 'Technical Blogger',
-    level: '83%',
+    level: '42%',
   },
 ];
 
@@ -37,8 +37,6 @@ export const TECH_STACK = [
   'NextJS',
   'TypeScript',
   'NodeJS',
-  'Redux',
-  'Zustand',
   'CSS',
   'SCSS',
   'TailwindCSS',
@@ -47,21 +45,18 @@ export const TECH_STACK = [
   'Next UI',
   'REST API',
   'MongoDB',
-  'MySQL',
   'Git',
   'GitHub',
-  'Jira',
-  'Figma',
-  'Adobe XD',
+  'Alight Motion (JK)',
 ];
 
 export const CONTACTS = {
-  EMAIL: 'iosamajavaid@gmail.com',
-  PHONE: '+923159591822',
+  EMAIL: 'hanzthespike@gmail.com',
+  PHONE: '+6275279522326',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/osamajavaid',
-  LINKEDIN: 'https://www.linkedin.com/in/iosamajavaid/',
-  TWITTER: 'https://twitter.com/iosamajavaid',
-  FACEBOOK: 'https://www.facebook.com/iosamajavaid',
+  GITHUB: 'https://github.com/',
+  LINKEDIN: 'https://www.linkedin.com/',
+  TWITTER: 'https://twitter.com/',
+  FACEBOOK: 'https://www.facebook.com/',
 };
