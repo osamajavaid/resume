@@ -1,64 +1,58 @@
-const background = [
+[
     {
-        eduCards: [
+        "eduCards": [
             {
-                id: 0,
-                title: 'UET Peshawar',
-                degree: 'BS, Computer System Engineering',
-                detail: "Bachelor's Degree in Computer System Engineering from UET Peshawar.",
-                year: '2018-2022'
+                "id": 0,
+                "title": "Universitas Lampung (UNILA)",
+                "degree": "Junior, Magister Teknik Informatika",
+                "detail": "Gelar Magister Teknik Informatika dari Universitas Lampung (UNILA) dengan fokus pada Pengembangan Aplikasi Chatbot dan Kecerdasan Buatan.",
+                "year": "2022-2024"
             },
             {
-                id: 1,
-                title: 'Peshawar Model Degree College',
-                degree: 'HSSC, Pre Engineering',
-                detail: "Completed FSC part 1 and part 2 in Pre-Engineering from Peshawar Model Degree College.",
-                year: '2015-2017'
+                "id": 1,
+                "title": "Institut Teknologi Sumatera (ITERA)",
+                "degree": "Junior, Teknik Informatika",
+                "detail": "Gelar Sarjana Teknik Informatika dari Institut Teknologi Sumatera (ITERA) dengan spesialisasi dalam Pengembangan Perangkat Lunak dan Sistem Terdistribusi.",
+                "year": "2017-2021"
             },
             {
-                id: 2,
-                title: 'Falcon Academy',
-                degree: 'SSC, Science Subjects',
-                detail: "Completed SSC part 1 and part 2 in Science subjects from Falcon Academy Seni Gumbat Kohat",
-                year: '2013-2015'
-            },
+                "id": 2,
+                "title": "SMK Muhammadiyah 1 Kota Agung",
+                "degree": "SMA, Jurusan BP",
+                "detail": "Lulusan SMK Muhammadiyah 1 Kota Agung dengan jurusan Broadcasting  (BP).",
+                "year": "2024-Present"
+            }
         ]
     },
     {
-        expCards: [
+        "expCards": [
             {
-                id: 1,
-                title: 'JMM Technologies',
-                role: 'Frontend Developer',
-                url: 'https://jmm.ltd/',
-                desc: 'As a frontend developer, I use React, Next & JavaScript to build user interfaces for web applications.',
-                year: '02/2023 - Present',
-                location: 'Peshawar, Pakistan'
+                "id": 1,
+                "title": "Tensura Interactive",
+                "role": "Lead WhatsApp Bot Developer",
+                "url": "https://tensura-interactive.com",
+                "desc": "Memimpin pengembangan bot WhatsApp untuk klien korporat, menggunakan Node.js, Twilio API, dan integrasi dengan sistem database MongoDB",
+                "year": "03/2023 - Present",
+                "location": "Bandar Lampung, Indonesia"
             },
             {
-                id: 2,
-                title: 'HauzaTech',
-                role: 'Internee',
-                url: 'no website',
-                desc: 'As an Internee, I learned how to use React & JavaScript to build interactive websites.',
-                year: '02/2023 - Present',
-                location: 'Peshawar, Pakistan'
+                "id": 2,
+                "title": "Nakano Interactive",
+                "role": "Senior Bot Developer",
+                "url": "https://nakano-interactive.com",
+                "desc": "Mengembangkan bot canggih untuk platform Facebook dengan integrasi AI menggunakan Node.js dan TensorFlow.",
+                "year": "06/2021 - 02/2023",
+                "location": "Bandar Lampung, Indonesia"
             },
             {
-                id: 3,
-                title: 'Encoder Bytes',
-                role: 'PHP Developer',
-                url: 'https://www.encoderbytes.com/',
-                desc: "I work there as a PHP developer, there I learned how to do CRUD'S operations in PHP, also I worked on Firebase",
-                year: '09/2020 - 02/2021',
-                location: 'Peshawar, Pakistan'
-            },
-
+                "id": 3,
+                "title": "Facebook Developer Circle",
+                "role": "Bot Developer",
+                "url": "https://developers.facebook.com/",
+                "desc": "Mengembangkan bot Facebook Messenger untuk otomatisasi layanan pelanggan dan pemasaran, menggunakan Facebook Graph API dan Dialogflow.",
+                "year": "08/2020 - 05/2023",
+                "location": "Bandar Lampung, Indonesia"
+            }
         ]
     }
 ]
-
-
-export default function handler(req, res) {
-    res.status(200).json(background)
-}
